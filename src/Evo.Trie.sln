@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7E360778-D0B3-4A91-9D9E-85E3123C105C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Eng", "Eng", "{B265B0DC-0001-4D98-9F29-5C97EAB4BDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{33F174CE-88A1-4B89-B3EA-9E5A6919A4F5}"
+	ProjectSection(SolutionItems) = preProject
+		..\eng\targets\all.targets = ..\eng\targets\all.targets
+		..\eng\targets\net21.targets = ..\eng\targets\net21.targets
+		..\eng\targets\net21_packaged.targets = ..\eng\targets\net21_packaged.targets
+		..\eng\targets\net50.targets = ..\eng\targets\net50.targets
+		..\eng\targets\net50_packaged.targets = ..\eng\targets\net50_packaged.targets
+		..\eng\targets\packaged.targets = ..\eng\targets\packaged.targets
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evo.Trie", "Evo.Trie\Evo.Trie.csproj", "{6536D8F0-EF74-490A-9BDA-93BE9272D3EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evo.Trie.Tests", "..\tests\Evo.Trie.Tests\Evo.Trie.Tests.csproj", "{250AB62D-0B49-4974-97F9-62B2E5BAFF09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{630741FD-5450-4713-8A55-ECF55C813D2D}"
+	ProjectSection(SolutionItems) = preProject
+		..\eng\ci\ci.yml = ..\eng\ci\ci.yml
+		..\eng\ci\github_sync.yml = ..\eng\ci\github_sync.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{EFA8CD8A-F5EB-48D5-A15D-AF785FC314F4}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6536D8F0-EF74-490A-9BDA-93BE9272D3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6536D8F0-EF74-490A-9BDA-93BE9272D3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6536D8F0-EF74-490A-9BDA-93BE9272D3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6536D8F0-EF74-490A-9BDA-93BE9272D3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250AB62D-0B49-4974-97F9-62B2E5BAFF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250AB62D-0B49-4974-97F9-62B2E5BAFF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250AB62D-0B49-4974-97F9-62B2E5BAFF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250AB62D-0B49-4974-97F9-62B2E5BAFF09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33F174CE-88A1-4B89-B3EA-9E5A6919A4F5} = {B265B0DC-0001-4D98-9F29-5C97EAB4BDC8}
+		{250AB62D-0B49-4974-97F9-62B2E5BAFF09} = {7E360778-D0B3-4A91-9D9E-85E3123C105C}
+		{630741FD-5450-4713-8A55-ECF55C813D2D} = {B265B0DC-0001-4D98-9F29-5C97EAB4BDC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D91BCFE5-5953-4B6D-A8DF-DDF806C687A4}
+	EndGlobalSection
+EndGlobal
