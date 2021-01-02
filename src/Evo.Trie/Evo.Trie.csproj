@@ -8,7 +8,7 @@
     <PackageProjectUrl>https://github.com/Evobolics/Evo.Strings</PackageProjectUrl>
     <PackageTags>String Evobolics Utility</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/Evobolics/Evo.Strings</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Evobolics/Evo.Tries</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>The package's code was written by Evobolics Digital, LLC, which was orginally forked from the Meadow under the MIT license.</PackageReleaseNotes>
   </PropertyGroup>
