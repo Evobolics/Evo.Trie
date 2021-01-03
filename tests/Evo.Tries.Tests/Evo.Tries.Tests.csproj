@@ -17,7 +17,7 @@
   
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Evo.Trie\Evo.Tries.csproj" />
+    <ProjectReference Include="..\..\src\Evo.Tries\Evo.Tries.csproj" />
   </ItemGroup>
 
 </Project>

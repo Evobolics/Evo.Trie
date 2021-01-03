@@ -12,7 +12,4 @@
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>The package's code was written by Evobolics Digital, LLC, which was orginally forked from the Meadow under the MIT license.</PackageReleaseNotes>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
 </Project>
