@@ -1,7 +1,7 @@
 # Evo.Trie
 A Trie Library
 
-# Implementation
+# Implementations
 
 ## Merkel Patricia Trie
 
