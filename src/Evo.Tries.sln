@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{33F1
 		..\eng\targets\packaged.targets = ..\eng\targets\packaged.targets
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evo.Tries", "Evo.Trie\Evo.Tries.csproj", "{6536D8F0-EF74-490A-9BDA-93BE9272D3EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evo.Tries", "Evo.Tries\Evo.Tries.csproj", "{6536D8F0-EF74-490A-9BDA-93BE9272D3EE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evo.Tries.Tests", "..\tests\Evo.Tries.Tests\Evo.Tries.Tests.csproj", "{250AB62D-0B49-4974-97F9-62B2E5BAFF09}"
 EndProject
