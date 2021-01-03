@@ -1,6 +1,6 @@
 steps:
 - bash: |
-    git push --force https://$(GITHUB_PAT)@github.com/Evobolics/Evo.Trie HEAD:main
+    git push --force https://$(GITHUB_PAT)@github.com/Evobolics/Evo.Tries HEAD:main
         
   displayName: 'Copy to Github'
   condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
